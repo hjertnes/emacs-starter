@@ -1,0 +1,11 @@
+#+TITLE: Eivind Hjertnes' Emacs configuration
+* Introduction
+This is my Emacs configuration, I use it for more or less anything that require me to edit text. Everything from writing, to programming, file management and a lot of command line stuff and sometimes reading email. In August of 2019 I moved my config from a pile of well commented elisp files to this org document.
+
+Why? Because it felt like it made more sense to have my configuration in a form where it works to give a lot of context about every single little dumb detail, to inspiration for others and to remind me why. 
+
+* Personal information
+#+BEGIN_SRC emacs-lisp
+  (setq user-full-name "Eivind Hjertnes"
+        user-mail-address "me@hjertnes.me")
+#+END_SRC
